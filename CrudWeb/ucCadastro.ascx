@@ -5,15 +5,15 @@
     <asp:HiddenField ID="hdnFld" runat="server" />
     <div class="w32perc fleft mleft3perc mright3perc">
         <asp:Label ID="lblNome" runat="server" Text="Nome" CssClass="font_padrao"></asp:Label>
-        <asp:TextBox ID="txtNome" runat="server" CssClass="w98perc fleft font_padrao"></asp:TextBox>
+        <asp:TextBox ID="txtNome" runat="server" CssClass="w98perc fleft font_padrao" MaxLength="500"></asp:TextBox>
     </div>
     <div class="w32perc fleft mright3perc">
         <asp:Label ID="lblCidade" runat="server" Text="Cidade" CssClass="font_padrao"></asp:Label>
-        <asp:TextBox ID="txtCidade" runat="server" CssClass="w98perc fleft font_padrao"></asp:TextBox>
+        <asp:TextBox ID="txtCidade" runat="server" CssClass="w98perc fleft font_padrao" MaxLength="100"></asp:TextBox>
     </div>
     <div class="w32perc fleft mright3perc">
         <asp:Label ID="lblTelefone" runat="server" Text="Telefone" CssClass="font_padrao"></asp:Label>
-        <asp:TextBox ID="txtTelefone" runat="server" CssClass="w98perc fleft font_padrao"></asp:TextBox>
+        <asp:TextBox ID="txtTelefone" runat="server" CssClass="w98perc fleft font_padrao" MaxLength="10"></asp:TextBox>
         
     </div>
     <div class="fright">
