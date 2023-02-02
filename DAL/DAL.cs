@@ -14,8 +14,11 @@ namespace Acesso
     {
         #region //Variáveis
 
-        //Connection string
-        private static string connString = "Data Source=" + Diretorios.Dir_Banco + "banco.sdf ;Password=duh.123;";
+        #if WEB
+            private static string connString = "Data Source=E:\\CrudCsharp\\CrudCsharp\\Crud\\bin\\Debug\\Banco\\banco.sdf ;Password=duh.123;";
+        #else
+            private static string connString = "Data Source=" + Diretorios.Dir_Banco + "banco.sdf ;Password=duh.123;";
+        #endif
 
         //Conexão do banco de dados
         private static SqlCeConnection conn;

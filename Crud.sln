@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regra", "Regra\Regra.csproj", "{1A61EE7A-0299-42DA-A9A0-93B69474860B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWeb", "CrudWeb\CrudWeb.csproj", "{8969E7A8-1663-4B3B-851C-25B625E7EFA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,16 @@ Global
 		{1A61EE7A-0299-42DA-A9A0-93B69474860B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1A61EE7A-0299-42DA-A9A0-93B69474860B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1A61EE7A-0299-42DA-A9A0-93B69474860B}.Release|x86.ActiveCfg = Release|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8969E7A8-1663-4B3B-851C-25B625E7EFA9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

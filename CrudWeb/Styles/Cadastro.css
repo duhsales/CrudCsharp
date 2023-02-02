@@ -1,0 +1,146 @@
+﻿.w100perc
+{
+    width: 100% !important;
+}
+
+.w98perc
+{
+    width: 98% !important;
+}
+
+.w46perc
+{
+    width: 46.86% !important;
+}
+
+.w32perc
+{
+    width: 30% !important;
+}
+
+.font_padrao
+{
+    font-family: Arial, Arial Narrow;
+    font-size: 14px;
+}
+
+.fleft
+{
+    float: left;
+}
+
+.fright
+{
+    float: right;
+}
+
+
+.mright3perc
+{
+    margin-right: 2.2%;
+}
+
+.mleft3perc
+{
+    margin-left: 2.2%;
+}
+
+.mtop15px
+{
+    margin-top: 15px;
+}
+
+.fundoTransp
+{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    top: 45px;
+    left: -1px;
+}
+
+.fnone
+{
+    float: none !important;
+}
+
+.pabsolute
+{
+    position: absolute !important;
+}
+
+.w400px
+{
+    width: 400px !important;
+}
+
+.m0auto
+{
+    margin: 0 auto;
+}
+
+.mtop2perc
+{
+    margin-top: 5% !important;
+}
+
+.mright5perc
+{
+    margin-right: 5% !important;
+}
+
+.mright1perc
+{
+    margin-right: 1% !important;
+}
+
+.backgroundCinza
+{
+    background-color: #c0c0c0 !important;
+}
+
+.h30px
+{
+    height: 30px !important;
+}
+
+.borderRadius
+{
+    border-radius: 3px 3px;
+}
+
+.closeButtom
+{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.closeButtom:hover
+{
+    font-weight: lighter;
+    color: #000;
+    text-decoration: none;
+}
+
+.backgroundBranco
+{
+    background-color: #fff !important;
+}
+
+.overflowAuto
+{
+    overflow: auto !important;
+}
+
+.ptop1perc
+{
+    padding-top: 1% !important;
+}
+
+.h300px
+{
+    height: 80px !important;
+}
+
+.none
+{
+    display:none;
+}

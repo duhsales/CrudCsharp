@@ -13,7 +13,11 @@ namespace Util
         //Diretório do Banco de dados
         public static string Dir_Banco
         {
-            get { return Application.StartupPath + "\\Banco\\"; }
+             #if WEB
+                get { return "E:\\CrudCsharp\\CrudCsharp\\Crud\\bin\\Debug\\Banco\\"; }
+            #else
+                get { return Application.StartupPath + "\\Banco\\"; }
+            #endif
         }
 
         public static void CriarDiretorios()
